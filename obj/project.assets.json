@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net8.0-windows7.0": {
+    "net8.0-windows10.0.22000": {
       "Microsoft.Windows.CsWinRT/2.0.7": {
         "type": "package",
         "compile": {
@@ -194,41 +194,36 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net8.0-windows7.0": [
+    "net8.0-windows10.0.22000": [
       "Microsoft.Windows.CsWinRT >= 2.0.7"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\andy0\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\andy0\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\C# Projects\\GATT-Client-Win11\\GATT-Client-Win11.csproj",
+      "projectUniqueName": "D:\\GATT-Client-Win11\\GATT-Client-Win11.csproj",
       "projectName": "GATT-Client-Win11",
-      "projectPath": "C:\\C# Projects\\GATT-Client-Win11\\GATT-Client-Win11.csproj",
+      "projectPath": "D:\\GATT-Client-Win11\\GATT-Client-Win11.csproj",
       "packagesPath": "C:\\Users\\andy0\\.nuget\\packages\\",
-      "outputPath": "C:\\C# Projects\\GATT-Client-Win11\\obj\\",
+      "outputPath": "D:\\GATT-Client-Win11\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\andy0\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net8.0-windows"
+        "net8.0-windows10.0.22000.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0-windows7.0": {
-          "targetAlias": "net8.0-windows",
+        "net8.0-windows10.0.22000": {
+          "targetAlias": "net8.0-windows10.0.22000.0",
           "projectReferences": {}
         }
       },
@@ -244,8 +239,8 @@
       }
     },
     "frameworks": {
-      "net8.0-windows7.0": {
-        "targetAlias": "net8.0-windows",
+      "net8.0-windows10.0.22000": {
+        "targetAlias": "net8.0-windows10.0.22000.0",
         "dependencies": {
           "Microsoft.Windows.CsWinRT": {
             "target": "Package",
@@ -263,8 +258,17 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.Windows.SDK.NET.Ref",
+            "version": "[10.0.22000.31, 10.0.22000.31]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.Windows.SDK.NET.Ref": {
             "privateAssets": "all"
           }
         },

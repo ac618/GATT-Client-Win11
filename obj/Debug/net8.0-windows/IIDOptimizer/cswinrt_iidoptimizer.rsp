@@ -1,7 +1,7 @@
 --target
-C:\C# Projects\GATT-Client-Win11\obj\Debug\net8.0-windows\GATT-Client-Win11.dll
+D:\GATT-Client-Win11\obj\Debug\net8.0-windows\GATT-Client-Win11.dll
 --outdir
-C:\C# Projects\GATT-Client-Win11\obj\Debug\net8.0-windows\IIDOptimizer\
+D:\GATT-Client-Win11\obj\Debug\net8.0-windows\IIDOptimizer\
 --refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.4\ref\net8.0\Microsoft.CSharp.dll
 --refs 
