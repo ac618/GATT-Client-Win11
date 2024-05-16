@@ -41,8 +41,8 @@ class GetBLEData
         if (serviceResult.Status != GattCommunicationStatus.Success)
         {
             Console.WriteLine("Communicator: cannot get GATT services");
-            // GetData(bluetoothLeDevice);
-            // return;
+            GetData(bluetoothLeDevice);
+            return;
         }
 
         var services = serviceResult.Services;

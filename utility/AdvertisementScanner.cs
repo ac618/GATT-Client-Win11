@@ -23,7 +23,7 @@ public class AdvertisementScanner
         if (localName == "STM32")
         {
             ConnectDevice(address);
-            // watcher.Received -= OnAdvertisementReceived;
+            watcher.Received -= OnAdvertisementReceived;
         }
     }
     public static void StartScanning()
