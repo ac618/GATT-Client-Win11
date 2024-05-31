@@ -1,7 +1,11 @@
 --target
-D:\GATT-Client-Win11\obj\Debug\net8.0-windows10.0.22000.0\GATT-Client-Win11.dll
+C:\C# Projects\GATT-Client-Win11\obj\Debug\net8.0-windows10.0.22000.0\GATT-Client-Win11.dll
 --outdir
-D:\GATT-Client-Win11\obj\Debug\net8.0-windows10.0.22000.0\IIDOptimizer\
+C:\C# Projects\GATT-Client-Win11\obj\Debug\net8.0-windows10.0.22000.0\IIDOptimizer\
+--refs 
+ C:\Users\andy0\.nuget\packages\audioswitcher.audioapi.coreaudio\3.0.3\lib\net452\AudioSwitcher.AudioApi.CoreAudio.dll
+--refs 
+ C:\Users\andy0\.nuget\packages\audioswitcher.audioapi\3.0.0\lib\net40\AudioSwitcher.AudioApi.dll
 --refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.4\ref\net8.0\Microsoft.CSharp.dll
 --refs 
@@ -45,6 +49,8 @@ D:\GATT-Client-Win11\obj\Debug\net8.0-windows10.0.22000.0\IIDOptimizer\
 --refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.4\ref\net8.0\System.ComponentModel.TypeConverter.dll
 --refs 
+ C:\Users\andy0\.nuget\packages\system.configuration.configurationmanager\8.0.0\lib\net8.0\System.Configuration.ConfigurationManager.dll
+--refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.4\ref\net8.0\System.Configuration.dll
 --refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.4\ref\net8.0\System.Console.dll
@@ -63,7 +69,11 @@ D:\GATT-Client-Win11\obj\Debug\net8.0-windows10.0.22000.0\IIDOptimizer\
 --refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.4\ref\net8.0\System.Diagnostics.DiagnosticSource.dll
 --refs 
+ C:\Users\andy0\.nuget\packages\system.diagnostics.eventlog\8.0.0\lib\net8.0\System.Diagnostics.EventLog.dll
+--refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.4\ref\net8.0\System.Diagnostics.FileVersionInfo.dll
+--refs 
+ C:\Users\andy0\.nuget\packages\system.diagnostics.performancecounter\8.0.0\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
 --refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.4\ref\net8.0\System.Diagnostics.Process.dll
 --refs 
@@ -252,6 +262,8 @@ D:\GATT-Client-Win11\obj\Debug\net8.0-windows10.0.22000.0\IIDOptimizer\
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.4\ref\net8.0\System.Security.Cryptography.OpenSsl.dll
 --refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.4\ref\net8.0\System.Security.Cryptography.Primitives.dll
+--refs 
+ C:\Users\andy0\.nuget\packages\system.security.cryptography.protecteddata\8.0.0\lib\net8.0\System.Security.Cryptography.ProtectedData.dll
 --refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.4\ref\net8.0\System.Security.Cryptography.X509Certificates.dll
 --refs 

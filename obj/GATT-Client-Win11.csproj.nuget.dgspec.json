@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GATT-Client-Win11\\GATT-Client-Win11.csproj": {}
+    "C:\\C# Projects\\GATT-Client-Win11\\GATT-Client-Win11.csproj": {}
   },
   "projects": {
-    "D:\\GATT-Client-Win11\\GATT-Client-Win11.csproj": {
+    "C:\\C# Projects\\GATT-Client-Win11\\GATT-Client-Win11.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GATT-Client-Win11\\GATT-Client-Win11.csproj",
+        "projectUniqueName": "C:\\C# Projects\\GATT-Client-Win11\\GATT-Client-Win11.csproj",
         "projectName": "GATT-Client-Win11",
-        "projectPath": "D:\\GATT-Client-Win11\\GATT-Client-Win11.csproj",
+        "projectPath": "C:\\C# Projects\\GATT-Client-Win11\\GATT-Client-Win11.csproj",
         "packagesPath": "C:\\Users\\andy0\\.nuget\\packages\\",
-        "outputPath": "D:\\GATT-Client-Win11\\obj\\",
+        "outputPath": "C:\\C# Projects\\GATT-Client-Win11\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\andy0\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\andy0\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0-windows10.0.22000.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -31,6 +29,9 @@
           }
         },
         "warningProperties": {
+          "noWarn": [
+            "NU1701"
+          ],
           "warnAsError": [
             "NU1605"
           ]
@@ -45,9 +46,17 @@
         "net8.0-windows10.0.22000": {
           "targetAlias": "net8.0-windows10.0.22000.0",
           "dependencies": {
+            "AudioSwitcher.AudioApi.CoreAudio": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
             "Microsoft.Windows.CsWinRT": {
               "target": "Package",
               "version": "[2.0.7, )"
+            },
+            "System.Diagnostics.PerformanceCounter": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
