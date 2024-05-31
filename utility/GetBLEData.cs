@@ -17,8 +17,8 @@ class GetBLEData
     }
     public static async void GetData(BluetoothLEDevice bluetoothLeDevice)
     {
-        Guid serviceUuid = new Guid("00055000-0000-0000-0001-000000000000");
-        Guid characteristicUuid = new Guid("00055000-0000-0000-0001-000000000002");
+        Guid serviceUuid = new Guid("00055005-0000-0000-0003-000000000001");
+        Guid characteristicUuid = new Guid("00055000-0000-0000-0003-000000000001");
 
         GattDeviceServicesResult serviceResult = await bluetoothLeDevice.GetGattServicesAsync();
         

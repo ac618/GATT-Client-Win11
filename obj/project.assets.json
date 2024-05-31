@@ -482,19 +482,21 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\C# Projects\\GATT-Client-Win11\\GATT-Client-Win11.csproj",
+      "projectUniqueName": "D:\\GATT-Client-Win11\\GATT-Client-Win11.csproj",
       "projectName": "GATT-Client-Win11",
-      "projectPath": "C:\\C# Projects\\GATT-Client-Win11\\GATT-Client-Win11.csproj",
+      "projectPath": "D:\\GATT-Client-Win11\\GATT-Client-Win11.csproj",
       "packagesPath": "C:\\Users\\andy0\\.nuget\\packages\\",
-      "outputPath": "C:\\C# Projects\\GATT-Client-Win11\\obj\\",
+      "outputPath": "D:\\GATT-Client-Win11\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\andy0\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\andy0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0-windows10.0.22000.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

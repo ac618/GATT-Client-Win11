@@ -6,17 +6,17 @@ class Program
 {
     static void Main(string[] args)
     {
-        PerformanceCounter cpuCounter = new PerformanceCounter("Processor", "% Processor Time", "_Total");
+        // PerformanceCounter cpuCounter = new PerformanceCounter("Processor", "% Processor Time", "_Total");
         
-        // initialize and discard the first value
-        _ = cpuCounter.NextValue();
-        Thread.Sleep(1000);
+        // // initialize and discard the first value
+        // _ = cpuCounter.NextValue();
+        // Thread.Sleep(1000);
 
-        CoreAudioController audioController = new CoreAudioController();
-        CoreAudioDevice playbackDevice = audioController.DefaultPlaybackDevice;
-        Console.WriteLine("Current Volume: " + playbackDevice.Volume);
-        while (true) 
-        {
+        // CoreAudioController audioController = new CoreAudioController();
+        // CoreAudioDevice playbackDevice = audioController.DefaultPlaybackDevice;
+        // Console.WriteLine("Current Volume: " + playbackDevice.Volume);
+        // while (true) 
+        // {
             // float[] samples = new float[5];
             // for (int i = 0; i < samples.Length; i++)
             // {
@@ -32,14 +32,14 @@ class Program
             // // Wait for a second before getting the next set of samples
             // Thread.Sleep(100);
 
-            playbackDevice.Volume = 0;
-            Console.WriteLine("Current Volume: " + playbackDevice.Volume);
-            Thread.Sleep(1000);
-            playbackDevice.Volume = 50;
-            Console.WriteLine("Current Volume: " + playbackDevice.Volume);
-            Thread.Sleep(1000);
-        }
-        // AdvertisementScanner.StartScanning();
-        // while (true) {}
+            // playbackDevice.Volume = 0;
+            // Console.WriteLine("Current Volume: " + playbackDevice.Volume);
+            // Thread.Sleep(1000);
+            // playbackDevice.Volume = 50;
+            // Console.WriteLine("Current Volume: " + playbackDevice.Volume);
+            // Thread.Sleep(1000);
+        // }
+        AdvertisementScanner.StartScanning();
+        while (true) {}
     }
 }

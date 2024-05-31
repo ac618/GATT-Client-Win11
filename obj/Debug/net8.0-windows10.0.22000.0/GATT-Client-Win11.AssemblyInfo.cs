@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GATT-Client-Win11")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce17132419c4e0be5a49a840d0afa03b2b35b04e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4fc78c558ff6280aceef88913d4703b6d3d73192")]
 [assembly: System.Reflection.AssemblyProductAttribute("GATT-Client-Win11")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GATT-Client-Win11")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
